@@ -11,8 +11,11 @@ Listening for a Connection
 ![Screen Shot 2022-07-30 at 20 13 31](https://user-images.githubusercontent.com/104993462/181925761-a3b9f76e-4f91-4a2d-838b-b3325532a5e8.png)
 
 • If everything goes well, the server accepts the connection.
+
 • Upon acceptance,the server gets a new socket bound to a different port.
 – It needs a new socket so that it can continue to listen to the original socket for connection requests while serving the connected client.
+![Screen Shot 2022-07-30 at 20 29 37](https://user-images.githubusercontent.com/104993462/181931509-8ec82fe6-4c66-4873-bb32-6b0f6fa6ba86.png)
+
 
  Server-Side Sockets
  
