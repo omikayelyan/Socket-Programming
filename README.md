@@ -32,3 +32,21 @@ int accept(int socket, struct sockaddr *addr, int addr_len)
 Client-Side Sockets
 
 • int connect(int socket, struct sockaddr *addr, int addr_len)
+
+How to use this program
+
+1) First compile the server.cpp file 
+
+   g++ server.cpp
+
+   ./a.out
+
+2) Then compile the client.cpp file.
+
+   g++ client.cpp
+
+   ./a.out
+
+When connection has created and everything is accepted, client can write his message, but notice that you need to add a dot at the end of each sentence to send a message. Same is for server.
+
+When you want to end a connection you need to add  ^  symbol, and then connection will be terminated.
